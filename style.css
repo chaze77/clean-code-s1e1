@@ -13,20 +13,13 @@ body {
 .main-picture img {
     width: 100%;
 }
+
 .main-picture 
 .more-info {
     font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
 
-
-.main-picture { 
-    text-align: center;
-}
-
-
-}
 .main-page {
     display: block;
     width: 500px;
@@ -154,3 +147,15 @@ ul li input[type=text] {
 .edit-mode label {
     display: none;
 }
+
+/*media start here */
+
+@media (max-width:768px) {
+
+
+    .main-picture { 
+        text-align: center;
+    }
+    
+    
+    }
